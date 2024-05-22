@@ -1,0 +1,48 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Prediction</title>
+    <style type="text/css">
+         div{
+            color:white;
+        }
+        h1{
+            color: 'white';
+            font-family: arial, sans-serif;
+            font-size: 60px;
+            font-weight: bold;
+            margin-top: 200px;
+        }
+        h2{
+            color: 'white';
+            font-family: arial, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            margin-top: 400px;
+        }
+        body {
+            background-image: url("{% static 'DiabetesPrediction/images/fetal_health.jpg' %}");
+       background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+    }
+
+    input[type=submit]{
+            background-color: #4dc3ff;
+            border: 2px;
+            color: white;
+            padding: 16px 32px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Diabetes Prediction System</h1>
+<form action="predict">
+    <input type="submit" value="Let us Get started">
+</form>
+</body>
+</html>
