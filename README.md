@@ -15,9 +15,9 @@ Table of Contents
 
 Requirements
 
-    Python 3.x
+    Python 3.12.3
     Django
-    scikit-learn
+    scikit-learn 1.5.0
     pandas
 
 Installation
