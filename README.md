@@ -2,16 +2,6 @@ Diabetes Prediction System
 Overview
 
 This project implements a diabetes prediction system using machine learning techniques. The system takes various health-related features as input and predicts whether a person is likely to have diabetes or not.
-Table of Contents
-
-    Requirements
-    Installation
-    Usage
-    Dataset
-    Model Training
-    Evaluation
-    Contributing
-    License
 
 Requirements
 
