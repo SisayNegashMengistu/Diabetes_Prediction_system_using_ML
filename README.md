@@ -26,7 +26,7 @@ Installation
 
     bash
 
-git clone https://github.com/yourusername/diabetes-prediction.git
+git clone https://github.com/yourusername/Diabetes_Prediction_system_using_ML.git
 
 Navigate to the project directory:
 
@@ -44,7 +44,7 @@ Usage
 
     python manage.py runserver
 
-    Access the application in your web browser at http://localhost:8000/.
+    Access the application in your web browser at http://127.0.0.1:5500.
     Use the provided interface to input health-related features and get predictions for diabetes.
 
 Dataset
